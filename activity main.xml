@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sam.eve.MainActivity">
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="@dimen/txt1width"
+        android:layout_height="@dimen/txt1height"
+        android:layout_centerHorizontal="true"
+        android:textSize="14dp"
+        android:background="#eee"
+
+
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="@dimen/txt1width"
+        android:layout_height="@dimen/txt1height"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="ClicK Here"
+        android:background="@color/pk"
+        android:onClick="onClick"
+
+        />
+
+
+
+</RelativeLayout>
+
